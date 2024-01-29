@@ -1,0 +1,51 @@
+/*.gradient-background {
+	background: linear-gradient(-45deg, #42275a, #20002c, #1D2671, #004e92);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+} */
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+body {
+	background-color:#42275a;
+}
+
+.lead {
+	color: aqua;
+}
+
+.hero {
+	color: white;
+	text-transform: uppercase;
+	text-decoration: solid;
+	font-weight: bold;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.heading2 {
+	color: white;
+	text-align: center;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.heading4 {
+	color: white;
+	margin-top: 1rem;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: 600;
+}
